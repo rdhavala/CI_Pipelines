@@ -1,4 +1,9 @@
 [ {
+  "buildOrder" : 5,
+  "reportUrl" : "https://rdhavala.github.io/CI_Pipelines/5/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
   "buildOrder" : 4,
   "reportUrl" : "https://rdhavala.github.io/CI_Pipelines/4/",
   "reportName" : "Allure Report with history",
