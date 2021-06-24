@@ -1,4 +1,5 @@
 name: allure-report
+
 on:
   release:
     types:
