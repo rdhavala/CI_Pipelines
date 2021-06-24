@@ -1,0 +1,576 @@
+{
+  "uid" : "1b5a552d4401b4df",
+  "name" : "GET API's token with correct credentials test",
+  "fullName" : "GET API's token with correct credentials test",
+  "historyId" : "6e88f68e3ef5273583a09c3d682fec0e",
+  "time" : {
+    "start" : 1624323700923,
+    "stop" : 1624323701408,
+    "duration" : 485
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "task (\"resetCoverage\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1624323699730,
+        "stop" : 1624323699804,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "generateCredentialsString (\"admin\"; \"admin\")",
+      "time" : {
+        "start" : 1624323699822,
+        "stop" : 1624323699823,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "post_data_request (\"http://10.40.67.177:9644/api/v1/token\"; \"grant_type=password&username=admin&password=admin\")",
+      "time" : {
+        "start" : 1624323699830,
+        "stop" : 1624323700442,
+        "duration" : 612
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "server",
+        "time" : {
+          "start" : 1624323699839,
+          "stop" : 1624323699842,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "route (\"POST\"; \"http://10.40.67.177:9644/api/v1/token*\")",
+        "time" : {
+          "start" : 1624323699843,
+          "stop" : 1624323699854,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"formRequest\")",
+        "time" : {
+          "start" : 1624323699854,
+          "stop" : 1624323699859,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "window",
+        "time" : {
+          "start" : 1624323699860,
+          "stop" : 1624323699872,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST http://10.40.67.177:9644/api/v1/token",
+        "time" : {
+          "start" : 1624323699923,
+          "stop" : 1624323699923,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "wait (\"@formRequest\"; \"[object Object]\")",
+        "time" : {
+          "start" : 1624323699923,
+          "stop" : 1624323700431,
+          "duration" : 508
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "function(){} then",
+        "time" : {
+          "start" : 1624323700442,
+          "stop" : 1624323700442,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1624323700930,
+        "stop" : 1624323701021,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "window",
+        "time" : {
+          "start" : 1624323701006,
+          "stop" : 1624323701019,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "generateCredentialsString (\"admin\"; \"admin\")",
+      "time" : {
+        "start" : 1624323701029,
+        "stop" : 1624323701029,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "post_data_request (\"http://10.40.67.177:9644/api//v1/token\"; \"grant_type=password&username=admin&password=admin\")",
+      "time" : {
+        "start" : 1624323701041,
+        "stop" : 1624323701361,
+        "duration" : 320
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "server",
+        "time" : {
+          "start" : 1624323701046,
+          "stop" : 1624323701047,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "route (\"POST\"; \"http://10.40.67.177:9644/api//v1/token*\")",
+        "time" : {
+          "start" : 1624323701047,
+          "stop" : 1624323701053,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"formRequest\")",
+        "time" : {
+          "start" : 1624323701053,
+          "stop" : 1624323701054,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "window",
+        "time" : {
+          "start" : 1624323701054,
+          "stop" : 1624323701086,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST http://10.40.67.177:9644/api//v1/token",
+        "time" : {
+          "start" : 1624323701120,
+          "stop" : 1624323701120,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "wait (\"@formRequest\"; \"[object Object]\")",
+        "time" : {
+          "start" : 1624323701120,
+          "stop" : 1624323701348,
+          "duration" : 228
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "function(){} then",
+        "time" : {
+          "start" : 1624323701361,
+          "stop" : 1624323701361,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "expected **{ Object (access_token, token_type, ...) }** to have property **access_token** assert",
+      "time" : {
+        "start" : 1624323701402,
+        "stop" : 1624323701402,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **200** to equal **200** assert",
+      "time" : {
+        "start" : 1624323701403,
+        "stop" : 1624323701403,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1624323701426,
+        "stop" : 1624323701439,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"\n          ⚠️ Could not find any coverage information in your application\n          by looking at the window coverage object.\n          Did you forget to instrument your application?\n          See [code-coverage#instrument-your-application](https://github.com/cypress-io/code-coverage#instrument-your-application)\n         `[@cypress/code-coverage]`\")",
+        "time" : {
+          "start" : 1624323701428,
+          "stop" : 1624323701438,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1624323701440,
+        "stop" : 1624323701567,
+        "duration" : 127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 16,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "task (\"coverageReport\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1624323702345,
+        "stop" : 1624323702412,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Basic suite of API's authorisation, authentication and get basic info"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1542,
+        "unknown" : 0,
+        "total" : 1542
+      },
+      "items" : [ {
+        "uid" : "169a948813465cee",
+        "reportUrl" : "https://atldevbuild01.servers.ipswitch.com/job/WUG-Main/job/WhatsUp-Gold-Main-Cypress-Tests/3255/allure/#testresult/169a948813465cee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624311525226,
+          "stop" : 1624311525857,
+          "duration" : 631
+        }
+      }, {
+        "uid" : "ea9d4a0a392bb8cf",
+        "reportUrl" : "https://atldevbuild01.servers.ipswitch.com/job/WUG-Main/job/WhatsUp-Gold-Main-Cypress-Tests/3254/allure/#testresult/ea9d4a0a392bb8cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624306966567,
+          "stop" : 1624306966852,
+          "duration" : 285
+        }
+      }, {
+        "uid" : "a390c4235c7559b2",
+        "reportUrl" : "https://atldevbuild01.servers.ipswitch.com/job/WUG-Main/job/WhatsUp-Gold-Main-Cypress-Tests/3253/allure/#testresult/a390c4235c7559b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624298996744,
+          "stop" : 1624298997088,
+          "duration" : 344
+        }
+      }, {
+        "uid" : "74e1d0e23472ed9a",
+        "reportUrl" : "https://atldevbuild01.servers.ipswitch.com/job/WUG-Main/job/WhatsUp-Gold-Main-Cypress-Tests/3252/allure/#testresult/74e1d0e23472ed9a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624296342336,
+          "stop" : 1624296342794,
+          "duration" : 458
+        }
+      }, {
+        "uid" : "303c45c658f67a1c",
+        "reportUrl" : "https://atldevbuild01.servers.ipswitch.com/job/WUG-Main/job/WhatsUp-Gold-Main-Cypress-Tests/3251/allure/#testresult/303c45c658f67a1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624184733711,
+          "stop" : 1624184734008,
+          "duration" : 297
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1b5a552d4401b4df.json",
+  "parameterValues" : [ ]
+}
