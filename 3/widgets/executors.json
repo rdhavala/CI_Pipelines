@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://rdhavala.github.io/CI_Pipelines",
+  "buildOrder" : 3,
+  "buildName" : "GitHub Actions Run #967064230",
+  "buildUrl" : "https://github.com/rdhavala/CI_Pipelines/actions/runs/967064230",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://rdhavala.github.io/CI_Pipelines/3/"
+} ]
